@@ -7,6 +7,7 @@ use iced::{Application, Command, Element, Length, Settings, Theme};
 use std::io;
 use std::path::{Path, PathBuf};
 use std::sync::Arc;
+
 // 主函数，程序的入口点。
 fn main() -> iced::Result {
     // 运行 Editor 应用程序。
